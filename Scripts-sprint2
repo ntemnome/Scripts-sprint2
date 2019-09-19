@@ -1,4 +1,4 @@
-SCRIPT ROUTER
+enable
 configure terminal
 hostname R1
 banner motd "ACESSO APENAS PARA O DEPARTAMENTO DE T.I"
@@ -49,9 +49,6 @@ interface gigabitEthernet0/0.90
 ip address 172.16.0.10 255.255.248.0
 no shutdow
 do wr
--------------------------------
-
-SW CONFIG
 
 show vlan brief
 vlan 10
